@@ -222,6 +222,10 @@ height:100vh;
 {
   height: 100vh;
 }
+.right3 
+{
+  height:70vh;
+}
 }
 
 @media screen and (max-width:568px)
