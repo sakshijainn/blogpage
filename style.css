@@ -73,15 +73,7 @@ body {
     margin: auto;
   }
 
-  /* .left img 
-  {
-      max-width: 450px;
-      display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
  
-  } */
   .right1 img
   {
     max-width: 550px;
@@ -228,6 +220,16 @@ margin-top: 6rem;
         flex-direction: column;
   
     }
+
+    .left img 
+    {
+        max-width: 350px;
+        display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    border-radius: 20px;
+   
+    }
     .heading  {
         font-size: 1.7rem;
         font-family: 'Dancing Script', cursive;
@@ -238,9 +240,9 @@ margin-top: 6rem;
     }
     .left 
     {
-        height:100vh;
-        width:100%;
-        flex-direction: column;
+      height:50vh;
+      width: 100%;
+      flex-direction: column;
         background-color: white;
     }
   
@@ -261,24 +263,24 @@ margin-top: 6rem;
 
   .left1 
   {
-      height:100vh;
-      width:100%;
-      flex-direction: column;
+    height:100vh;
+    width: 100%;
+    flex-direction: column;
       background-color: #EF9661;
   }
 
   .right1
 {
-  height:100vh;
+  height:80vh;
   width: 100%;
   flex-direction: column;
   background-color: white;
 }
 .left2
 {
-    height:100vh;
-    width:100%;
-    flex-direction: column;
+  height:70vh;
+  width: 100%;
+  flex-direction: column;
     background-color:white;
 }
 
@@ -290,29 +292,32 @@ flex-direction: column;
 background-color:#CFB3EF;
 }
 
-.left2
+.left3
 {
-height:100vh;
-width: 100%;
-flex-direction: column;
-
+  height:100vh;
+  width: 100%;
+  flex-direction: column;
 }
 
 
 .right3
 {
-height:100vh;
-width: 100vw;
-flex-direction: column;
+  height:50vh;
+  width: 100%;
+  flex-direction: column;
 
+}
+
+.right p , .left1 p , .right2 p , .left3 p 
+{
+  line-height: 1.2;
 }
 
 
 
-
-.left2 img, .right1 img
+.left2 img, .right1 img, .right3 img
 {
-    max-width: 500px;
+    max-width: 400px;
 }
 
 
