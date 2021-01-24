@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.navigation ul {
+  list-style: none;
+  text-align: right;
+}
+
+.navigation li {
+  padding: 0rem 0.5rem;
+  display: inline;
+}
+
+.navigation {
+  padding-top: 2rem;
+  color: white;
+  background-color:black;
+  padding: 1rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#FFFFFF;
+  }
+  .image-container {
+    padding: 2rem;
+    min-height: 70vh;
+  }
+  
+  .image-container .image {
+    max-width: 550px;
+    display: block;
+    margin: auto;
+  }
+
+  /* .left img 
+  {
+      max-width: 450px;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+ 
+  } */
+  .right1 img
+  {
+    max-width: 550px;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 20px;
+margin-top: 2rem;
+
+  }
+  .heading {
+    text-align: center;
+    padding-top: 1rem;
+  }
+  
+  .heading  {
+    font-size: 2.1rem;
+    font-family: 'Dancing Script', cursive;
+  }
+  .heading p {
+    font-size: 1rem;
+  }
+
+
+  .container 
+  {
+      min-height: 80vh;
+      display: flex;
+
+  }
+
+  .left 
+  {
+      width:50vw;
+      background-color: white;
+  }
+
+  .right 
+{
+  width:50vw;
+  background-color: #836ED5;
+}
+
+.left1
+  {
+      width:50vw;
+      background-color: #EF9661;
+  }
+
+  .right1
+{
+  width:50vw;
+  background-color: white;
+}
+
+.left2
+{
+    width:50vw;
+    background-color:white;
+}
+
+.right2
+{
+    width:50vw;
+    background-color:#CFB3EF;
+}
+
+.left3
+{
+    height:100vh;
+    width:100%;
+    flex-direction: column;
+    background-color: #F3B290;
+}
+
+.right3
+{
+height:100vh;
+width: 100%;
+flex-direction: column;
+background-color: white;
+}
+
+
+@media screen and (max-width:568px)
+{
+    .image-container .image {
+        max-width: 400px;
+    }
+    .container 
+    {
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+  
+    }
+    .heading  {
+        font-size: 1.7rem;
+        font-family: 'Dancing Script', cursive;
+      }
+    #reverse 
+    {
+        flex-direction: column-reverse;
+    }
+    .left 
+    {
+        height:100vh;
+        width:100%;
+        flex-direction: column;
+        background-color: white;
+    }
+  
+    .right 
+  {
+    height:100vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: #836ED5;
+  }
+
+
+  .left1 
+  {
+      height:100vh;
+      width:100%;
+      flex-direction: column;
+      background-color: #EF9661;
+  }
+
+  .right1
+{
+  height:100vh;
+  width: 100%;
+  flex-direction: column;
+  background-color: white;
+}
+.left2
+{
+    height:100vh;
+    width:100%;
+    flex-direction: column;
+    background-color:white;
+}
+
+.right2
+{
+height:100vh;
+width: 100%;
+flex-direction: column;
+background-color:#CFB3EF;
+}
+
+
+
+.left2 img, .right1 img
+{
+    max-width: 500px;
+}
+
+
+}
