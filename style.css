@@ -30,7 +30,6 @@ body {
   color: white;
   background-color:black;
   padding: 1rem;
-  border-bottom-left-radius: 2rem;
 }
 
 .navigation a {
@@ -45,7 +44,8 @@ body {
 
 .navigation .nav-brand {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
 }
 
 .navigation .link-active {
@@ -110,6 +110,8 @@ margin-top: 2rem;
   {
       min-height: 80vh;
       display: flex;
+      padding-left: 3rem;
+      padding-right: 3rem;
 
   }
 
@@ -151,20 +153,67 @@ margin-top: 2rem;
 
 .left3
 {
-    height:100vh;
-    width:100%;
-    flex-direction: column;
+    width:50vw;
+    
+   
     background-color: #F3B290;
 }
 
 .right3
 {
-height:100vh;
-width: 100%;
-flex-direction: column;
+width:50vw;
+
+
 background-color: white;
 }
 
+.right3 img 
+{
+  max-width: 550px;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 20px;
+margin-top: 6rem;
+}
+
+.right h1 , .left1 h1 ,.right2 h1 ,.left3 h1 
+{
+  text-align: center;
+  margin-top: 2rem;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: 2rem;
+
+}
+.right p , .left1 p , .right2 p , .left3 p 
+{
+  margin-top: 1rem;
+  padding:1rem;
+  line-height: 1.5;
+  letter-spacing: 0.015rem;
+  margin-bottom: 20px;
+}
+
+.right a , .left1 a , .right2 a ,.left3 a 
+{
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: white;
+  color:#836ED5;
+  font-weight: bold;
+  margin-left:2rem;
+  padding:0.7rem;
+  border-radius: 10px;
+  margin-bottom:1rem;
+  cursor: pointer;
+}
+
+.right a :hover 
+{
+  background-color: black;
+}
 
 @media screen and (max-width:568px)
 {
@@ -201,6 +250,12 @@ background-color: white;
     width: 100%;
     flex-direction: column;
     background-color: #836ED5;
+  }
+
+  .container
+  {
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 
 
