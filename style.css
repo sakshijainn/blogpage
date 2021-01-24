@@ -250,7 +250,7 @@ margin-top: 6rem;
   
     .right 
   {
-    height:90vh;
+    height:100vh;
     width: 100%;
     flex-direction: column;
     background-color: #836ED5;
@@ -265,7 +265,7 @@ margin-top: 6rem;
 
   .left1 
   {
-    height:90vh;
+    height:100vh;
     width: 100%;
     flex-direction: column;
       background-color: #EF9661;
@@ -288,7 +288,7 @@ margin-top: 6rem;
 
 .right2
 {
-height:80vh;
+height:100vh;
 width: 100%;
 flex-direction: column;
 background-color:#CFB3EF;
@@ -305,7 +305,7 @@ background-color:#CFB3EF;
 
 .right3
 {
-  height:70vh;
+  height:100vh;
   width: 100%;
   flex-direction: column;
 
