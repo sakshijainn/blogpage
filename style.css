@@ -211,6 +211,19 @@ margin-top: 6rem;
   background-color: black;
 }
 
+@media screen and (max-width:780px)
+{
+  .right2
+{
+height:100vh;
+}
+
+.left3 
+{
+  height: 100vh;
+}
+}
+
 @media screen and (max-width:568px)
 {
     .image-container .image {
