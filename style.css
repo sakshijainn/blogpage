@@ -290,6 +290,24 @@ flex-direction: column;
 background-color:#CFB3EF;
 }
 
+.left2
+{
+height:100vh;
+width: 100%;
+flex-direction: column;
+
+}
+
+
+.right3
+{
+height:100vh;
+width: 100%;
+flex-direction: column;
+
+}
+
+
 
 
 .left2 img, .right1 img
